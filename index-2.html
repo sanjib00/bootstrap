@@ -7,48 +7,27 @@
 
 <body>
 
-<label for="name">Example of Default Checkbox and radio button </label>
-<div class="checkbox">
-   <label><input type="checkbox" value="">Option 1</label>
-</div>
-<div class="checkbox">
-   <label><input type="checkbox" value="">Option 2</label>
-</div>
+<form role="form">
+   <div class="form-group">
+      <label for="name">Select list</label>
+      <select class="form-control">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+         <option>5</option>
+      </select>
 
-<div class="radio">
-   <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios1" 
-         value="option1" checked> Option 1
-   </label>
-</div>
-<div class="radio">
-   <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios2" 
-         value="option2">
-         Option 2 - selecting it will deselect option 1
-   </label>
-</div>
-<label for="name">Example of Inline Checkbox and radio button </label>
-<div>
-   <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox1" value="option1"> Option 1
-   </label>
-   <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox2" value="option2"> Option 2
-   </label>
-   <label class="checkbox-inline">
-      <input type="checkbox" id="inlineCheckbox3" value="option3"> Option 3
-   </label>
-   <label class="checkbox-inline">
-      <input type="radio" name="optionsRadiosinline" id="optionsRadios3" 
-         value="option1" checked> Option 1
-   </label>
-   <label class="checkbox-inline">
-      <input type="radio" name="optionsRadiosinline" id="optionsRadios4" 
-         value="option2"> Option 2
-   </label>
-</div>
-
+      <label for="name">Mutiple Select list</label>
+      <select multiple class="form-control">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+         <option>5</option>
+      </select>
+   </div>
+</form>
 
 
 </body>
